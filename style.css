@@ -1,0 +1,32 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 auto; 
+	position: absolute;
+	font: 16px Verdana;
+	color: #d11d1d;
+	height: 25px;
+	width: 100%; 
+	top: calc(96% - 12.5px); 
+	left: 0; 
+	right: 0;
+	text-align: center; 
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #e46e6e;
+}
+span {
+	font-size: 20px;
+}
+p > a:first-of-type {
+	font-size: 300px;
+
+}
+body {
+	overflow: hidden;
+}
